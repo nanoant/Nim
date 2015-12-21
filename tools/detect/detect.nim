@@ -730,6 +730,7 @@ if header("<sys/socket.h>"):
   v("SO_RCVLOWAT") #{.importc, header: "<sys/socket.h>".}: cint
   v("SO_RCVTIMEO") #{.importc, header: "<sys/socket.h>".}: cint
   v("SO_REUSEADDR") #{.importc, header: "<sys/socket.h>".}: cint
+  v("SO_REUSEPORT") #{.importc, header: "<sys/socket.h>".}: cint
   v("SO_SNDBUF") #{.importc, header: "<sys/socket.h>".}: cint
   v("SO_SNDLOWAT") #{.importc, header: "<sys/socket.h>".}: cint
   v("SO_SNDTIMEO") #{.importc, header: "<sys/socket.h>".}: cint
